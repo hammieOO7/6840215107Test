@@ -46,9 +46,9 @@
 
     <section id="welcome-screen">
         <img id="success-gif" src="https://media1.tenor.com/m/KHXxcJp5vusAAAAd/yoru-yoru-valorant.gif">
-        <h2>ยินดีต้อนรับเข้าสู่เว็บไซต์ของฉัน</h2>
+        <h2>ยินดีต้อนรับ ใส่ชื่อเลยเดี๋ยวพาไปดู</h2>
         <input type="text" id="username" placeholder="กรุณากรอกชื่อของคุณ">
-        <button onclick="showProfile()">ดูโปรไฟล์ของฉัน</button>
+        <button onclick="showProfile()">ทักทาย</button>
         <p id="error-msg" style="color: #ff4d4d; font-weight: bold;"></p>
     </section>
 
@@ -101,9 +101,10 @@
             } else {
                 welcomeSection.style.display = "none";
                 profileSection.style.display = "block";
-                greetingText.innerHTML = "ยินดีต้อนรับคุณ " + inputName;
+                greetingText.innerHTML = "สวัสดีคุณ " + inputName "ยินดีต้อนรับ";
             }
         }
     </script>
 </body>
+
 </html>
